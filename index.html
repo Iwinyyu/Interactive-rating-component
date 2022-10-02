@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <main>
+    <div id="container">
+
+      <div id="logo"><img id="star" src="images/icon-star.svg" alt="a"></div>
+      <h1 id="title">How did we do?</h1>
+      <p id="description">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+      <div id="btns">
+        
+        <button class="rating">1</button>
+        <button class="rating">2</button>
+        <button class="rating">3</button>
+        <button class="rating">4</button>
+        <button class="rating">5</button>
+        
+      </div>
+      <button id="submit-btn">SUBMIT</button>
+      
+    </div>
+    <template>
+
+        <div id="temp">
+
+          <div id="end-icon"><img src="images/illustration-thank-you.svg" alt="a"></div>
+          <div id="selected">You selected 4 out of 5</div>
+          <h1 id="thank">Thank you!</h1>
+          <p id="text">We appreciate you takeing the time to give a rating. If you ever need more support. don't hesitate to get in touch!</p>  
+        
+        </div>
+
+    </template>
+
+  </main>
+<script src="app.js"></script>
+
+
+
+</body>
+</html>
